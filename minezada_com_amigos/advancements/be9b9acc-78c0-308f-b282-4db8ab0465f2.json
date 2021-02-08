@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2021-02-08 14:04:22 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2021-02-07 22:43:38 -0300"
@@ -143,6 +149,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting": {
+    "criteria": {
+      "has_gold_ore": "2021-02-08 13:54:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2021-02-07 23:19:01 -0300"
@@ -233,6 +245,7 @@
       "cooked_mutton": "2021-02-07 23:41:42 -0300",
       "cooked_beef": "2021-02-07 23:03:44 -0300",
       "rabbit": "2021-02-07 22:59:59 -0300",
+      "bread": "2021-02-08 13:56:35 -0300",
       "cooked_chicken": "2021-02-07 23:06:21 -0300"
     },
     "done": false
@@ -366,6 +379,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2021-02-07 23:01:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2021-02-08 14:04:22 -0300"
     },
     "done": true
   },
@@ -876,6 +895,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot": {
+    "criteria": {
+      "has_gold_ore": "2021-02-08 13:54:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2021-02-07 23:37:57 -0300"
@@ -939,6 +964,12 @@
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-02-07 23:02:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-02-08 14:04:22 -0300"
     },
     "done": true
   },
@@ -1157,6 +1188,7 @@
       "minecraft:wooded_hills": "2021-02-07 23:34:31 -0300",
       "minecraft:wooded_badlands_plateau": "2021-02-07 23:44:42 -0300",
       "minecraft:swamp": "2021-02-07 23:42:45 -0300",
+      "minecraft:savanna": "2021-02-08 14:03:55 -0300",
       "minecraft:plains": "2021-02-07 22:53:13 -0300"
     },
     "done": false
