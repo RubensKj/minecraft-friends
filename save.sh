@@ -7,8 +7,8 @@ git add .
 textCommit = "";
 for text in "$@" 
 do
-	$textCommit += " ";
-    $textCommit += text;
+	textCommit += " ";
+    textCommit += text;
 done
 
 # Commit all changes
