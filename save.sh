@@ -11,9 +11,9 @@ done
 
 # Commit all changes
 ECHO Commiting changes..
-if [[ $textCommit == 0 ]]
+if [ $1 != "" ]
 then 
-	git commit -m $textCommit
+	git commit -m "${textCommit}"
 else
 	git commit -m "Updating world.."
 fi
