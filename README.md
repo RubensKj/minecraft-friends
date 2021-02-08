@@ -14,12 +14,12 @@ A simple way to run is using Hamachi to open your port to outside world. But in 
 
 To be able to run this server in your local machine, you should have this dependencies installed in your computer first.
 
-- (Java JDK)[https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html]
-- (Git Bash)[https://git-scm.com/downloads]
+- [Java JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+- [Git Bash](https://git-scm.com/downloads)
 
 ### Starting with Bash
 
-First of all, you should have (Git Bash)[https://git-scm.com/downloads] downloaded in your computer.
+First of all, you should have [Git Bash](https://git-scm.com/downloads) downloaded in your computer.
 
 In order to run the server in your machine, just open the git bash in this folder and then 
 
