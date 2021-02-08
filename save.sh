@@ -11,7 +11,7 @@ done
 
 # Commit all changes
 ECHO Commiting changes..
-if [ $textCommit != "" ]
+if [[ $textCommit == 0 ]]
 then 
 	git commit -m $textCommit
 else
