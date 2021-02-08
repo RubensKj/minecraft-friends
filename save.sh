@@ -4,7 +4,7 @@
 ECHO Adding all files..
 git add .
 
-let textCommit = "";
+textCommit = "";
 for text in "$@" 
 do
 	textCommit += " ";
