@@ -7,15 +7,15 @@ git add .
 textCommit = "";
 for text in "$@" 
 do
-	textCommit += " ";
-    textCommit += text;
+	$textCommit += " ";
+    $textCommit += text;
 done
 
 # Commit all changes
 ECHO Commiting changes..
-if [ textCommit != "" ]
+if [ $textCommit != "" ]
 then 
-	git commit -m textCommit
+	git commit -m $textCommit
 else
 	git commit -m "Updating world.."
 fi
