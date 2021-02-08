@@ -4,11 +4,9 @@
 ECHO Adding all files..
 git add .
 
-textCommit = "";
-for text in "$@" 
-do
-	textCommit += " ";
-    textCommit += text;
+textCommit="";
+for text in "$@"; do
+    textCommit+="${text} ";
 done
 
 # Commit all changes
