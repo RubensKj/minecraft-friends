@@ -4,11 +4,18 @@
 ECHO Adding all files..
 git add .
 
+let textCommit = "";
+for text in "$@" 
+do
+	textCommit += " ";
+    textCommit += text;
+done
+
 # Commit all changes
 ECHO Commiting changes..
-if [ $1 != "" ]
+if [ textCommit != "" ]
 then 
-	git commit -m $1
+	git commit -m textCommit
 else
 	git commit -m "Updating world.."
 fi
