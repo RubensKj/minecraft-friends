@@ -6,7 +6,12 @@ git add .
 
 # Commit all changes
 ECHO Commiting changes..
-git commit -m "Updating world.."
+if [ $1 != "" ]
+then 
+	git commit -m $1
+else
+	git commit -m "Updating world.."
+fi
 
 # Pushing all changes
 ECHO Pushing all to git
