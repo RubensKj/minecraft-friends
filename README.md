@@ -17,7 +17,7 @@ To be able to run this server in your local machine, you should have this depend
 - [Java JDK](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 - [Git Bash](https://git-scm.com/downloads)
 
-### Starting with Bash
+### Starting with Bash (Recommended)
 
 First of all, you should have [Git Bash](https://git-scm.com/downloads) downloaded in your computer.
 
